@@ -11,6 +11,8 @@
     "vite": "^2.9.7"
   },
   "dependencies": {
-    "kaboom": "^2000.2.9"
+    "firebase": "^9.8.1",
+    "kaboom": "^2000.2.9",
+    "uid": "^2.0.0"
   }
 }
