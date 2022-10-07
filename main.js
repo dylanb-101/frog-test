@@ -51,7 +51,7 @@ scene("leaderBoard", async() => {
 
   let scores = []; 
   const scoresRef = collection(db, "scores");
-  const q = query(scoresRef, orderBy("score", "desc"), limit(10));
+  const q = query(scoresRef, orderBy("score", "desc"), limit(5));
   const docs = await getDocs(q);
   console.log(docs);
   docs.forEach((doc) => {
